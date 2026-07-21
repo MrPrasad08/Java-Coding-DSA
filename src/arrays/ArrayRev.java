@@ -12,5 +12,5 @@ public class ArrayRev {
 		ArrayRev obj = new ArrayRev();
 		int arr1[] = {10,20,30,40,50,60};
 		obj.reverse(arr1);
-	}
+	} 
 }
