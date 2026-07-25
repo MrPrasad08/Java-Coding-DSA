@@ -4,11 +4,11 @@ public class ArraySumAvg {
 	public static int sumAvg(int arr[]) {
 		int n = arr.length;
 		int sum =0;
-		double avg;
+		float avg =0;
 		for(int i=0; i<n; i++) {
 			sum += arr[i];
 		}
-		avg = (double)sum/n;
+		avg = (float)sum/n;
 		System.out.println("Sum is : " +sum);
 		System.out.println("Average : " +avg);
 		return 1;
