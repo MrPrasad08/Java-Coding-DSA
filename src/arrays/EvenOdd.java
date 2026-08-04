@@ -27,6 +27,7 @@ public class EvenOdd {
 		System.out.println();
 		System.out.println("Even's : " +even);
 		System.out.println("Odd's : " +odd);
+		sc.close();
 	}
 	public static void main(String args[]) {
 		EvenOdd obj = new EvenOdd();
