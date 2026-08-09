@@ -17,7 +17,7 @@ public class BubbleSort {
 	}
 	public static void main(String args[]) {
 		BubbleSort obj = new BubbleSort();
-		int arr1[] = {5,3,9,2,7,8,4};
+		int arr1[] = {5,3,9,2,1,6,7,8,4};
 		obj.bubble(arr1);
 	}
 }
